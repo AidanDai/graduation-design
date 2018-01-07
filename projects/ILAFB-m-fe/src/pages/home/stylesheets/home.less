@@ -1,0 +1,44 @@
+html, body, #content {
+	width: 100%;
+	height: 100%;
+}
+
+.flex-con {
+	height: 100%;
+}
+
+.am-flexbox .am-flexbox-item {
+	width: 100%;
+	flex: none;
+	margin: 0;
+}
+
+.am-flexbox .btns-con {
+	flex: 1;
+	padding: 0 60px;
+	box-sizing: border-box;
+
+	.btns-flex-con {
+		width: 100%;
+		height: 100%;
+
+		.btns-flex-item {
+			position: relative;
+		}
+
+		.btn {
+			position: absolute;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+		}
+
+		.delivery {
+			bottom: 20px;
+		}
+
+		.claim {
+			top: 20px;
+		}
+	}
+}

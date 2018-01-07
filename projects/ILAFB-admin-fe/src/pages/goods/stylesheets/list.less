@@ -1,0 +1,41 @@
+html, body, #content, .page {
+	width: 100%;
+	height: 100%;
+}
+
+.page {
+	display: flex;
+	flex-direction: row;
+
+	.page-main {
+		flex: 1;
+		overflow-y: auto;
+	}
+
+	.page-content {
+		margin-top: 70px;
+	}
+
+	.goods-con {
+		width: 1184px;
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+		padding: 12px;
+		background-color: #fff;
+	}
+
+	.imgs-con {
+		margin: 5px;
+
+		img {
+			cursor: pointer;
+		}
+	}
+
+	.imgs-con, .img-cont, img {
+		display: block;
+		width: 280px;
+		height: auto;
+	}
+}
